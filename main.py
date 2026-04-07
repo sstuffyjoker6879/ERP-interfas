@@ -2,11 +2,14 @@ import ttkbootstrap as ttk
 from views.login import View_login
 from views.dashboard import View_dashboard
 from views.calculadora_view import View_calculadora
+from 
 
 VISTAS={
     "login":View_login,
     "dashboard":View_dashboard,
-    "Calculadora":View_calculadora
+    "Calculadora":View_calculadora,
+    "adivinar_numero":View_adivinar_numero
+
 }
 class Main: 
     def __init__(self):

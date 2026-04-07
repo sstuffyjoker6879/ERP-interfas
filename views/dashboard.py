@@ -13,5 +13,6 @@ class View_dashboard:
         contenedor_dashboard.pack(expand=True)
         ttk.Label(contenedor_dashboard,text="dashboard",font=("Arial",20)).pack(pady=20)
         ttk.Button(contenedor_dashboard,text="Calculadora",command=lambda:self.manager("Calculadora")).pack(pady=10)
+        ttk.button(contenedor_dashboard,text="adivinar numero",command=lambda:self.manager("adivinar numero")).pack(pady=10)
         ttk.Button(contenedor_dashboard,text="Back",command=lambda:self.manager("login")).pack(pady=10)
         return contenedor_dashboard
